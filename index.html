@@ -19,34 +19,45 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
-    <div class="container-md">
-      test
-    </div>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <!-- <div class="container d-flex justify-content-center align-items-center min-vh-100"> -->
+    <main class="d-flex justify-content-center align-items-center min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div>
+            <img
+              src="/assets/images/avatar-jessica.jpeg"
+              class="mx-auto d-block user-image mt-5 mb-4"
+            />
+          </div>
+          <h1 class="text-center mb-2">Jessical Randall</h1>
+          <h2 class="text-center mb-4" id="location">London, United States</h2>
+          <p class="text-center mb-4">"Front-end developer and avid reader"</p>
+        </div>
+        <div class="row row-gap-3 col-10 mx-auto">
+          <button class="btn py-3">GitHub</button>
+          <button class="btn py-3">Frontend Mentor</button>
+          <button class="btn py-3">LinkedIn</button>
+          <button class="btn py-3">Twitter</button>
+          <button class="btn py-3">Instagram</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
   </body>
 </html>

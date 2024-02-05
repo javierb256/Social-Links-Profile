@@ -58,4 +58,47 @@
     background-color: var(--off-black);
   }
 
+
+  .container {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    max-width: 450px;
+    min-height: 700px;
+    border-radius: 10px;
+  }
+
+  .user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 9999px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+  #location {
+    color: var(--primary-green);
+  }
+  .row .btn {
+    color: white;
+  }
+
+  .btn {
+    background-color: var(--grey);
+    font-weight: bold;
+    border-radius: 9px;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+  }
+  .attribution a {
+    color: white;
+  }
   
