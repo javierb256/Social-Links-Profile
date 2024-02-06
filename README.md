@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/javierb256/Social-Links-Profile](https://github.com/javierb256/Social-Links-Profile)
+- Live Site URL: [https://javierb256.github.io/Social-Links-Profile/](https://javierb256.github.io/Social-Links-Profile/)
 
 ## My process
 
